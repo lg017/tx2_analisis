@@ -4,6 +4,7 @@ from googletrans import Translator
 
 translator = Translator()
 st.title('Uso de textblob')
+st.markdown("<h1 style='text-align: center; color: blue;'>Uso de textblob</h1>", unsafe_allow_html=True)
 
 st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
 with st.sidebar:
